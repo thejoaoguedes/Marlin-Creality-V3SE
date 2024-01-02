@@ -402,6 +402,7 @@
 #define BOARD_MD_D301                 5070  // Mingda D2 DZ301 V1.0 (STM32F103ZE)
 #define BOARD_VOXELAB_AQUILA          5071  // Voxelab Aquila V1.0.0/V1.0.1 (GD32F103RC / N32G455RE / STM32F103RE)
 #define BOARD_SPRINGER_CONTROLLER     5072  // ORCA 3D SPRINGER Modular Controller (STM32F103VC)
+#define BOARD_CREALITY_CR4NSXXC13     5073  // Creality CR4NS200320C13 as found in the Ender 3 V3SE (GD32F303RET6)
 
 //
 // ARM Cortex-M4F

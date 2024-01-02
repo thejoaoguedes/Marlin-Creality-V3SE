@@ -25,8 +25,10 @@
  * Creality CR4NS200320C13 (GD32F303RET6) as found in the Ender-3 V3 SE
  */
 
-#define BOARD_INFO_NAME      "Creality CR4NS"
+#define BOARD_INFO_NAME      "Creality CR4NSxxC13"
 #define DEFAULT_MACHINE_NAME "Creality3D"
+
+#include "../stm32f1/pins_CREALITY_V4.h"
 //
 // Differences
 //
@@ -35,13 +37,8 @@
 #define FIL_RUNOUT_PIN                      PC15
 #define SERVO0_PIN                          PC14
 #define Z_MIN_PROBE_PIN                     PC13
-#define FAN1_PIN                            PC1 //Heater Fan
-//
-// Heaters
-//
-#define HEATER_BED_PIN                      PB2  // HOT BED
-
-#include "pins_CREALITY_V4.h"
+#define FAN1_PIN                            PC1  // Heater Fan
+#define HEATER_BED_PIN                      PB2  // Bed Heater
 
 #if HAS_TMC_UART
   //Hardware serial communication ports.
