@@ -1,3 +1,11 @@
+Board: CR4NS200320C13
+
+Drivers: MS35774
+
+https://www.relmon.com/en/index.php/list/detail/378.html
+
+This is very much a work in progress so don't expect this to work perfectly
+
 <p align="center"><img src="buildroot/share/pixmaps/logo/marlin-outrun-nf-500.png" height="250" alt="MarlinFirmware's logo" /></p>
 
 <h1 align="center">Marlin 3D Printer Firmware</h1>
