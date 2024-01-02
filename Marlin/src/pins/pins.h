@@ -705,7 +705,7 @@
 #elif MB(SPRINGER_CONTROLLER)
   #include "stm32f1/pins_ORCA_3D_SPRINGER.h"        // STM32F1                              env:STM32F103VC_orca3d
 #elif MB(CREALITY_CR4NSXXC13)
-  #include "gd32f1/pins_CREALITY_CR4NS200320C13.h"  // GD32F3                               env:GD32F303RE
+  #include "gd32f1/pins_CREALITY_CR4NSXXC13.h"      // GD32F3                               env:GD32F103RET6_sovol_maple
 
 //
 // ARM Cortex-M4F
